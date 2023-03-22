@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body #wrapper {
+    display: flex;
+
+}
+
+body #container {
+    width: 500px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+body #container h3 {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+body #wrapper #container .buttons {
+    display: flex;
+}
+
+body #wrapper #container .buttons button {
+    margin: 10px 25px;
+    width: 200px;
+}
+
+.input-panel {
+    width: 500px;
+    margin: 8px;
+    padding: 2px;
+}
+
+.input-panel button {
+    padding: 4px;
+    width: 25%;
+}
+
+.input-panel input {
+    height: 23px;
+    padding-left: 4px;
+    width: 68%;
+}
+
+.task-list {
+    width: 500px;
+}
+
+#start-message {
+    margin: 10px;
+}
+
+.task {
+    display: flex;
+    border: 1px solid gray;
+    padding: 3px 8px;
+    margin: 2px 10px 10px 10px;
+}
+
+.task p {
+    width: 50%;
+    text-align: left;
+    margin: auto auto auto 10px;
+    padding-left: 10px;
+}
+
+.completed {
+    background-color: green;
+    color: white;
+}
+
+.completed p {
+    text-decoration: line-through;
+}
+
+[data-id = "button-edit"] {
+    height: 23px;
+    width: 20%;
+    margin: 5px 20px;
+}
+
+[data-id = "button-delete"] {
+    height: 23px;
+    width: 20%;
+    margin: 5px 20px;
+}
+
+body #instructions {
+    width: 600px;
+    margin: 20px;
+    border: 2px solid black;
+    height: fit-content;
+}
+
+body #instructions h3 {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+body #instructions ul {
+    margin-left: 30px;
+}
+
+body #instructions ul li {
+    margin-top: 2px;
+}
+
+body #instructions ul li:first-of-type {
+    margin-top: 8px;
+}
+
+body #instructions ul li:last-of-type {
+    margin-bottom: 8px;
+}
+
+
+
+
